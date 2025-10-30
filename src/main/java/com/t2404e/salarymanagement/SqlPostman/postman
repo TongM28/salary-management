@@ -1,0 +1,23 @@
+//get
+http://localhost:8080/api/employees
+//post
+http://localhost:8080/api/employees
+json
+{
+  "name": "Do Thi L",
+  "age": 26,
+  "position": "Data Analyst",
+  "salary": 1500
+}
+//put
+http://localhost:8080/api/employees/2
+
+json
+{
+  "name": "Tran Thi B",
+  "age": 30,
+  "position": "Tester",
+  "salary": 1250
+}
+//delele
+http://localhost:8080/api/employees/2
